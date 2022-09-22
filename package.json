@@ -56,7 +56,8 @@
     "node": ">=6"
   },
   "scripts": {
-    "test": "NODE_ENV=test mocha -R spec --recursive"
+    "test": "NODE_ENV=test mocha -R spec --recursive",
+    "version": "npm version -m \"chore(release): bump to v%s\""
   },
   "main": "lib/index.js",
   "dependencies": {
